@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.sensormonitoring.central.alarm.ThresholdCheckerTest" tests="6" skipped="0" failures="0" errors="0" timestamp="2026-06-23T02:56:21" hostname="LAPTOP-L47A6T32" time="0.027">
+  <properties/>
+  <testcase name="humidityExactlyAtThresholdIsNotBreach()" classname="com.sensormonitoring.central.alarm.ThresholdCheckerTest" time="0.001"/>
+  <testcase name="temperatureAboveThresholdIsBreach()" classname="com.sensormonitoring.central.alarm.ThresholdCheckerTest" time="0.001"/>
+  <testcase name="temperatureBelowThresholdIsNotBreach()" classname="com.sensormonitoring.central.alarm.ThresholdCheckerTest" time="0.002"/>
+  <testcase name="humidityAboveThresholdIsBreach()" classname="com.sensormonitoring.central.alarm.ThresholdCheckerTest" time="0.002"/>
+  <testcase name="temperatureExactlyAtThresholdIsNotBreach()" classname="com.sensormonitoring.central.alarm.ThresholdCheckerTest" time="0.004"/>
+  <testcase name="humidityBelowThresholdIsNotBreach()" classname="com.sensormonitoring.central.alarm.ThresholdCheckerTest" time="0.002"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

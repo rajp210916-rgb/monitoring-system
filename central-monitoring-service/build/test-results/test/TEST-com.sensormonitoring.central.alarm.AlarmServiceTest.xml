@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.sensormonitoring.central.alarm.AlarmServiceTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2026-06-23T02:56:21" hostname="LAPTOP-L47A6T32" time="0.133">
+  <properties/>
+  <testcase name="raisesAlarmWhenThresholdExceeded()" classname="com.sensormonitoring.central.alarm.AlarmServiceTest" time="0.13"/>
+  <testcase name="doesNotRaiseAlarmWhenWithinThreshold()" classname="com.sensormonitoring.central.alarm.AlarmServiceTest" time="0.002"/>
+  <system-out><![CDATA[08:26:21.337 [Test worker] WARN com.sensormonitoring.central.alarm.AlarmService -- ALARM! warehouse 'WH-1' TEMPERATURE sensor 't1' reported 40.0C at 2026-01-01T00:00:00Z which exceeds the configured threshold
+08:26:21.454 [Test worker] INFO com.sensormonitoring.central.alarm.AlarmService -- OK: warehouse 'WH-1' HUMIDITY sensor 'h1' = 45.0% at 2026-01-01T00:00:00Z
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

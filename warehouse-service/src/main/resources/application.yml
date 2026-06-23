@@ -1,0 +1,23 @@
+spring:
+  application:
+    name: warehouse-service
+  kafka:
+    bootstrap-servers: localhost:9092
+    producer:
+      key-serializer: org.apache.kafka.common.serialization.StringSerializer
+      value-serializer: org.springframework.kafka.support.serializer.JsonSerializer
+
+warehouse:
+  # Identity of THIS warehouse instance. Override per deployment, e.g.
+  #   --warehouse.id=WH-2   (or env WAREHOUSE_ID) to run a second warehouse.
+  id: WH-1
+  udp:
+    temperature-port: 3344
+    humidity-port: 3355
+  kafka:
+    topic: sensor-measurements
+    partitions: 6
+
+logging:
+  level:
+    com.sensormonitoring: INFO

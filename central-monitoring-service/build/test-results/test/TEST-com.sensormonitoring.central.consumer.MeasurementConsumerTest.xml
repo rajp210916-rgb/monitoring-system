@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.sensormonitoring.central.consumer.MeasurementConsumerTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2026-06-23T02:56:28" hostname="LAPTOP-L47A6T32" time="0.008">
+  <properties/>
+  <testcase name="forwardsReadingToAlarmService()" classname="com.sensormonitoring.central.consumer.MeasurementConsumerTest" time="0.008"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

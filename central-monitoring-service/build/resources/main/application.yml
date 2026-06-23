@@ -1,0 +1,24 @@
+spring:
+  application:
+    name: central-monitoring-service
+  kafka:
+    bootstrap-servers: localhost:9092
+    consumer:
+      group-id: central-monitoring
+      auto-offset-reset: earliest
+      key-deserializer: org.apache.kafka.common.serialization.StringDeserializer
+      value-deserializer: org.springframework.kafka.support.serializer.JsonDeserializer
+      properties:
+        spring.json.trusted.packages: com.sensormonitoring.common
+        spring.json.value.default.type: com.sensormonitoring.common.SensorReading
+
+monitoring:
+  thresholds:
+    temperature: 35
+    humidity: 50
+  kafka:
+    topic: sensor-measurements
+
+logging:
+  level:
+    com.sensormonitoring: INFO
